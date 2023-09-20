@@ -21,8 +21,16 @@
 }
 
 /*HEADER*/
+header{
+    background-color: #BFAE9D;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
 
-header div{
+}
+/* header div{
     width: 160px;
     height: 156.301px;
     -moz-border-radius: 50%;
@@ -31,26 +39,24 @@ header div{
     background: #BFAE9D;
     text-decoration: none;
     border: 2px solid #000;
+    
+} */
+
+.logo-header{
+    width: 10rem;
+    height: 10rem;
 }
 
-header div a{
-    width: 144px;
-    height: 140.671px;
+.navbar{
     display: flex;
-}
-
-nav{
-    width: 76.5rem;
-    height: 5.6781rem;
+    flex-direction: row;
+    list-style: none;
+    gap: 50px;
     text-decoration: none;
-    border-radius: 80px;
-    border: 2px solid #000;
-    background: #BFAE9D;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+ 
 
-nav li{
-    display: inline;
+.navbar li{
 }
 
 nav li a {
@@ -70,21 +76,21 @@ nav :hover{
     color: #000;
 }
 /*MAIN*/
-
 .section1-inicio{
-    width: 90rem;
-    height: 35.625rem;
     border-radius: 1px;
+    display: flex;
+    justify-content: center;
     border: .3125rem solid #5F4136;
-    background-image: url("../assets/img/fondocafe1.jpeg");
+    background-image: url("../assets/img/Fondo-cafe.png");
     background-repeat: no-repeat;
     background-size: cover;
+    
 
 }
 
 .img1-inicio{
     width: 685px;
-    height: 570px;
+height: 570px;
 }
 
 .img2-inicio{
@@ -95,9 +101,11 @@ nav :hover{
 
 
 .section2-inicio{
-    width: 90rem;
-    height: 413px;
+    height: 600px;
     margin-top: 1.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("../assets/img/Fondo.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,6 +134,9 @@ nav :hover{
 
 .section3-inicio{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section3-inicio div img{
@@ -510,12 +521,11 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 /*FOTTER*/
 
 footer{
-    width: 1440px;
-    height: 48px;
-    padding: 4px 0px;
-    flex-shrink: 0;
-    border-top: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: end;
     background: #C3AF96;
+    margin-top: ;
 }
 
 footer img{
